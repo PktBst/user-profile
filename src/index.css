@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.usercard{
+  background-color: rgb(245, 245, 245);
+  border:0.1px solid rgb(201, 201, 201);
+  margin: 10px;
+  color: black;
+  border-radius: 36px;
+  padding: 4px;
+  align-self: center;
+  position: relative;
+  left: 40vw;
+  max-width: 300px;
+}
+@media screen and (max-width: 700px) {
+  .usercard {
+    max-width: 100vw;
+    position:static;
+  }
+}
+
+.usercard:hover{
+  background-color: rgb(226, 226, 226);
+  border-color: rgb(28, 28, 82);
+}
+
+a{
+  text-decoration: none;
+}
